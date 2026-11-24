@@ -1,5 +1,12 @@
 # What's new in Swoop
 
+## v0.4.0 — 2026-11-25
+
+- New: speed limit for all downloads together, videos included. Set it in Settings → Schedule, or pick one fast from the menu bar (Limit Speed: 0.5 to 20 MB/s).
+- New: schedule. Start downloading at a set time each day (for example 2 AM), and pause everything at another (for example 8 AM).
+- New: when all downloads finish, Swoop can put the Mac to sleep, shut it down, or quit itself, after a 30-second notice you can cancel.
+- New: the Mac doesn't go to sleep on its own while something is downloading (the screen still can).
+
 ## v0.3.0 — 2026-11-25
 
 - New: Swoop updates itself. It checks for a new version at launch and every few hours, shows what's new, and installs it with one click (Install and Restart). Running downloads are paused and pick up again after the restart. You can also check from Swoop → Check for Updates…, the menu bar, or Settings → General.

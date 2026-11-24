@@ -65,6 +65,8 @@ The gull in the menu bar shows the total speed while something downloads. Its me
 ### And the rest
 - A queue: 3 downloads at a time by default, the rest wait their turn.
 - **Clear Finished** (⌘⇧K) removes every finished download from the list at once; the files stay.
+- **Speed limit** for everything at once (also from the menu bar), and a **schedule**: start at 2 AM, pause at 8 AM, then sleep or shut down the Mac when all downloads finish.
+- Keeps the Mac awake while downloading.
 - Updates itself: Swoop shows what's new and installs a new version with one click.
 - Sorted by type (video, music, documents, archives, apps, images), with search.
 - A notification when a download finishes.
