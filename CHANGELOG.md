@@ -1,5 +1,9 @@
 # What's new in Swoop
 
+## v0.4.1 — 2026-11-25
+
+- Fixed: Swoop → Check for Updates… opened the About page instead of checking. Automatic checks and Check Now in Settings were not affected.
+
 ## v0.4.0 — 2026-11-25
 
 - New: speed limit for all downloads together, videos included. Set it in Settings → Schedule, or pick one fast from the menu bar (Limit Speed: 0.5 to 20 MB/s).
