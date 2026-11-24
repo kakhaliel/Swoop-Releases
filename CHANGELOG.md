@@ -1,5 +1,9 @@
 # What's new in Swoop
 
+## v0.4.2 — 2026-11-25
+
+- Fixed: when Swoop found an update while you were in another app, its window stayed hidden. Now the window stays up, a notification says the update is ready, and the Dock icon bounces.
+
 ## v0.4.1 — 2026-11-25
 
 - Fixed: Swoop → Check for Updates… opened the About page instead of checking. Automatic checks and Check Now in Settings were not affected.
