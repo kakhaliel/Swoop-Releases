@@ -1,5 +1,11 @@
 # What's new in Swoop
 
+## v0.3.0 — 2026-11-25
+
+- New: Swoop updates itself. It checks for a new version at launch and every few hours, shows what's new, and installs it with one click (Install and Restart). Running downloads are paused and pick up again after the restart. You can also check from Swoop → Check for Updates…, the menu bar, or Settings → General.
+- New: after an update that brings a new browser extension, Swoop reminds you to click Reload and opens Chrome's extensions page for you.
+- Note: from 0.2.2 or older, download this version by hand once. Every update after it arrives by itself.
+
 ## v0.2.2 — 2026-11-25
 
 - Fixed: Instagram reels and posts download whole, with picture and sound and the post's own title. Before, a piece of another reel could be saved instead.
