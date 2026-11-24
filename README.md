@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Fast downloads for your Mac.</b><br>
-  Swoop splits every file across many connections, picks up where it left off, and catches the downloads you start in your browser.
+  Swoop splits every file across many connections, picks up where it left off, catches the downloads you start in your browser, and saves videos from YouTube and most video sites.
 </p>
 
 <p align="center">
@@ -35,10 +35,27 @@ Many servers cap the speed of each connection. Swoop opens several (8 to start) 
 ### Pause, quit, pick up again
 Pause any download and resume it later, even after quitting Swoop or restarting your Mac. If the file changed on the server in the meantime, Swoop notices instead of mixing two versions, and resuming starts it fresh.
 
+### Videos and MP3s
+Point at a video on YouTube, Vimeo, X, Instagram, TikTok or most other sites and click **Download**. For each download, pick the quality (up to 4K) or **MP3** to keep only the sound. Swoop prefers H.264 so every Mac can play the result.
+
+<p align="center"><img src="docs/video-button.png" alt="The Download button over a video" width="560"></p>
+
+The first time, Swoop asks to download two free, open-source tools it uses for videos, [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org), checks them, and keeps yt-dlp up to date.
+
+### Swoop's own download window
+Every download from the browser opens Swoop's window instead of the browser's "Save As": rename the file, see its size, pick the folder (Downloads, Desktop, Movies… or any other), choose the quality for videos, then **Download**, **Later** or **Cancel**. You can turn it off in Settings → Browser.
+
+<p align="center"><img src="docs/download-window.png" alt="Swoop's download window for a video" width="500"></p>
+
 ### Catches your browser's downloads
 The Swoop extension for Chrome, Edge, Brave and Arc sends the files you download straight to Swoop, with the cookies they need. Right-click any link and choose **Download with Swoop**. If Swoop isn't open, your browser keeps the download, so nothing gets lost.
 
 <p align="center"><img src="docs/browser.png" alt="Swoop's Browser settings" width="620"></p>
+
+### In Finder too
+Files still downloading show Swoop's icon with a progress bar, and the ✕ on them pauses the download.
+
+<p align="center"><img src="docs/finder.png" alt="Files downloading in Finder" width="360"></p>
 
 ### Always in the menu bar
 The gull in the menu bar shows the total speed while something downloads. Its menu lists what's running, and it can start a download from a link you just copied.
@@ -47,6 +64,7 @@ The gull in the menu bar shows the total speed while something downloads. Its me
 
 ### And the rest
 - A queue: 3 downloads at a time by default, the rest wait their turn.
+- **Clear Finished** (⌘⇧K) removes every finished download from the list at once; the files stay.
 - Sorted by type (video, music, documents, archives, apps, images), with search.
 - A notification when a download finishes.
 - Pixel look, or Classic with the standard macOS icons, in any accent color you like.
@@ -63,15 +81,16 @@ The gull in the menu bar shows the total speed while something downloads. Its me
 1. In Swoop, open **Settings → Browser** and click **Open** next to step 1. Turn on **Developer mode** in the top right of Chrome's extensions page.
 2. Click **Load unpacked** in Chrome, then click **Show Folder** in Swoop and choose that folder.
 3. Pin the gull to the toolbar. Its popup says **Connected to Swoop** when everything works.
+4. Updating Swoop? Click **Reload** on the extension in `chrome://extensions` afterwards.
 
 ## Permissions
 
 | Permission | Why |
 |---|---|
 | Notifications | To tell you when a download finishes. You can turn it off in Settings. |
-| Browser extension: downloads, cookies, all sites | To hand a download to Swoop with the cookies the site needs. It talks only to Swoop on your Mac (127.0.0.1). |
+| Browser extension: downloads, cookies, all sites | To hand a download to Swoop with the cookies the site needs, and to show the Download button on videos. It talks only to Swoop on your Mac (127.0.0.1). |
 
-Swoop connects only to the servers you download from. No accounts, no analytics.
+Swoop connects only to the servers you download from and, for videos, to the official pages of yt-dlp and ffmpeg to fetch and update them. No accounts, no analytics.
 
 ## Requirements
 
