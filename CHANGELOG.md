@@ -1,5 +1,10 @@
 # What's new in Swoop
 
+## v0.5.0 — 2026-11-25
+
+- New: playlists. Give Swoop a YouTube playlist (a course, an album, a series) and it lists every video with a check box. Pick the ones you want, Video or MP3, and they download in order as "01 - Title", "02 - Title"… in a folder named after the playlist.
+- New: a link to one video inside a playlist offers the whole playlist, or Just This Video.
+
 ## v0.4.2 — 2026-11-25
 
 - Fixed: when Swoop found an update while you were in another app, its window stayed hidden. Now the window stays up, a notification says the update is ready, and the Dock icon bounces.

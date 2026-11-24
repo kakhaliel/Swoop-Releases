@@ -40,6 +40,8 @@ Point at a video on YouTube, Vimeo, X, Instagram, TikTok or most other sites, in
 
 <p align="center"><img src="docs/video-button.png" alt="The Download button over a video" width="560"></p>
 
+**Playlists**: give Swoop a playlist (a course, an album, a series) and pick the videos you want. They download in order as "01 - Title", "02 - Title"… in a folder named after the playlist, as video or MP3.
+
 The first time, Swoop asks to download two free, open-source tools it uses for videos, [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org), checks them, and keeps yt-dlp up to date.
 
 ### Swoop's own download window
