@@ -1,5 +1,13 @@
 # What's new in Swoop
 
+## v0.2.2 — 2026-11-25
+
+- Fixed: Instagram reels and posts download whole, with picture and sound and the post's own title. Before, a piece of another reel could be saved instead.
+- Improved: videos that come as VP9, AV1 or MKV (Instagram, some YouTube qualities) are converted to H.264 MP4 after downloading, so QuickTime and every Mac app play them. You can turn this off in Settings → Video.
+- Improved: portrait videos (reels, shorts) get the quality you picked. A 1080×1920 reel counts as 1080p instead of dropping to 540p.
+- Improved: when a site is slow or the connection drops, Swoop tries again by itself (up to 3 times) before giving up.
+- Note: after updating, click Reload on the Swoop extension in chrome://extensions.
+
 ## v0.2.1 — 2026-11-24
 
 - Improved: videos on sites with their own embedded players now download. The extension picks up the video the browser is actually playing and sends it to Swoop, named after the page. Play the video for a second before you click Download.

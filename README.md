@@ -36,7 +36,7 @@ Many servers cap the speed of each connection. Swoop opens several (8 to start) 
 Pause any download and resume it later, even after quitting Swoop or restarting your Mac. If the file changed on the server in the meantime, Swoop notices instead of mixing two versions, and resuming starts it fresh.
 
 ### Videos and MP3s
-Point at a video on YouTube, Vimeo, X, Instagram, TikTok or most other sites, including sites with their own embedded players, and click **Download**. For each download, pick the quality (up to 4K) or **MP3** to keep only the sound. Swoop prefers H.264 so every Mac can play the result.
+Point at a video on YouTube, Vimeo, X, Instagram, TikTok or most other sites, including sites with their own embedded players, and click **Download**. For each download, pick the quality (up to 4K) or **MP3** to keep only the sound. Swoop prefers H.264, and converts VP9 / AV1 / MKV videos to H.264 MP4 after downloading, so every Mac can play the result.
 
 <p align="center"><img src="docs/video-button.png" alt="The Download button over a video" width="560"></p>
 
