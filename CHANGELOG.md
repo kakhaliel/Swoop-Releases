@@ -1,5 +1,12 @@
 # What's new in Swoop
 
+## v0.2.1 — 2026-11-24
+
+- Improved: videos on sites with their own embedded players now download. The extension picks up the video the browser is actually playing and sends it to Swoop, named after the page. Play the video for a second before you click Download.
+- Improved: when a video turns out to be a plain file, Swoop downloads it on many connections, like any other file.
+- Fixed: embedded players that answered "HTTP Error 404" now download, because Swoop asks for them as if coming from their own site.
+- Note: after updating, click Reload on the Swoop extension in chrome://extensions (it needs one new permission).
+
 ## v0.2.0 — 2026-11-24
 
 - New: download videos from YouTube, Vimeo, X, Instagram, TikTok and most video sites. Pick the quality, or MP3 to keep only the sound, for each download.
