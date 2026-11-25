@@ -87,6 +87,7 @@ Swoop checks for a new version at launch and every few hours, shows what's new, 
 - **Clear Finished** (⌘⇧K) removes every finished download from the list at once. The files stay.
 - A notification when a download finishes.
 - Pixel look, or Classic with the standard macOS icons, in any accent color you like.
+- A short pixel animation when you open Swoop: an arrow drops into the tray and the gull rises out. A click skips it, and Settings → Appearance turns it off.
 
 ## Install
 

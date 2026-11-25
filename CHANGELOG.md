@@ -1,5 +1,9 @@
 # What's new in Swoop
 
+## v0.6.0 — 2026-11-25
+
+- New: a launch animation. When you open Swoop, a pixel arrow drops into the tray and the gull rises out of it, then the window appears. It takes about a second, a click skips it, and it doesn't play when Swoop opens for a link or at login, or right after an update. Turn it off in Settings → Appearance → Animation at launch.
+
 ## v0.5.0 — 2026-11-25
 
 - New: playlists. Give Swoop a YouTube playlist (a course, an album, a series) and it lists every video with a check box. Pick the ones you want, Video or MP3, and they download in order as "01 - Title", "02 - Title"… in a folder named after the playlist.
